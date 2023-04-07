@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbarBgColor">
+      <div class="container-fluid">
+        <h1 class="navbar-brand">ONEX Solutions</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex">
+          <button class="btn btn-outline-success me-2" type="button">
+            Sign In
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Banner -->
+    <section class="container my-5 bannerContainer">
+      <div class="row center">
+        <div class="col-md-8">
+          <h2 class="bannerLefth2">ONEX Solutions</h2>
+          <p>
+            Optimize your Digital Marketing strategy with our data-driven
+            approach and industry leading expertise Our expertly crafted
+            strategies are designed to deliver results and maximize ROI,
+            leveraging the latest technologies and industry-leading expertise to
+            help you connect with your customers like never before.
+          </p>
+          <button class="btn btn-primary">Learn More</button>
+        </div>
+        <div class="col-md-4">
+          <h2>Contact Us</h2>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- About Us -->
+    <section class="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="https://img.freepik.com/free-vector/city-skyline-concept-illustration_114360-8923.jpg"
+              alt="Our Team"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6 aboutRight">
+            <div class="about-text">
+              <h2>About Us</h2>
+              <p>
+                ONEX Solutions is the leading E-Mail Marketing/Tele-Marketing
+                Company that specializes in providing end-to-end
+                Whatsapp/SMS/Voicecall/E-Mail marketing solutions to
+                organizations across various industries. ONEX Solutions aims to
+                help businesses streamline their processes, enhance
+                productivity, and achieve their strategic goals with innovative
+                and cost-effective solutions. With a team of highly skilled
+                professionals and a customer-centric approach, ONEX Solutions is
+                committed to delivering quality services and exceeding client
+                expectations.
+              </p>
+            </div>
+            <ul class="aboutUsIcons center">
+              <li>
+                <img src="https://www.onex.solutions/images/quick.png" alt="" />
+                <h4>Quick</h4>
+              </li>
+              <li>
+                <img src="https://www.onex.solutions/images/quick.png" alt="" />
+                <h4>Easy</h4>
+              </li>
+              <li>
+                <img src="https://www.onex.solutions/images/quick.png" alt="" />
+                <h4>Economical</h4>
+              </li>
+              <li>
+                <img src="https://www.onex.solutions/images/quick.png" alt="" />
+                <h4>Effective</h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Clients Section -->
+    <section id="clients" class="body-cont5 wow fadeInDown">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 title text-center">
+            <h3>Our Clients</h3>
+            <span class="line"><img src=" " alt="" /></span>
+          </div>
+
+          <div class="col-12 title text-center">
+            <div class="tab-content">
+              <ul class="nav nav-pills clientsul" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    id="all-cl-tab"
+                    data-toggle="pill"
+                    href="#all-cl"
+                    role="tab"
+                    aria-controls="all-cl"
+                    aria-selected="true"
+                    >All</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="retail-tab"
+                    data-toggle="pill"
+                    href="#retail"
+                    role="tab"
+                    aria-controls="retail"
+                    aria-selected="false"
+                    >Retail</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="real-estate-tab"
+                    data-toggle="pill"
+                    href="#real-estate"
+                    role="tab"
+                    aria-controls="real-estate"
+                    aria-selected="false"
+                    >Real Estate</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="health-tab"
+                    data-toggle="pill"
+                    href="#health"
+                    role="tab"
+                    aria-controls="health"
+                    aria-selected="false"
+                    >Health</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="other-tab"
+                    data-toggle="pill"
+                    href="#other"
+                    role="tab"
+                    aria-controls="other"
+                    aria-selected="false"
+                    >Others</a
+                  >
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade active show"
+                  id="all-cl"
+                  role="tabpanel"
+                  aria-labelledby="all-cl-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collapse col-12" id="collapseExample">
+                      <div class="row">
+                        <div class="col-lg-2 col-md-3 col-4">
+                          <div class="bs-shape3">
+                            <div class="image-shape">
+                              <img
+                                src=" https://www.onex.solutions/images/cl-icon2.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-4">
+                          <div class="bs-shape3">
+                            <div class="image-shape">
+                              <img
+                                src=" https://www.onex.solutions/images/cl-icon2.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-4">
+                          <div class="bs-shape3">
+                            <div class="image-shape">
+                              <img
+                                src=" https://www.onex.solutions/images/cl-icon2.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-4">
+                          <div class="bs-shape3">
+                            <div class="image-shape">
+                              <img
+                                src=" https://www.onex.solutions/images/cl-icon2.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-4">
+                          <div class="bs-shape3">
+                            <div class="image-shape">
+                              <img
+                                src=" https://www.onex.solutions/images/cl-icon2.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-4">
+                          <div class="bs-shape3">
+                            <div class="image-shape">
+                              <img
+                                src=" https://www.onex.solutions/images/cl-icon2.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-4">
+                          <div class="bs-shape3">
+                            <div class="image-shape">
+                              <img
+                                src=" https://www.onex.solutions/images/cl-icon2.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-4">
+                          <div class="bs-shape3">
+                            <div class="image-shape">
+                              <img
+                                src=" https://www.onex.solutions/images/cl-icon2.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-4">
+                          <div class="bs-shape3">
+                            <div class="image-shape">
+                              <img
+                                src=" https://www.onex.solutions/images/cl-icon2.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-4">
+                          <div class="bs-shape3">
+                            <div class="image-shape">
+                              <img
+                                src=" https://www.onex.solutions/images/cl-icon2.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-4">
+                          <div class="bs-shape3">
+                            <div class="image-shape">
+                              <img
+                                src=" https://www.onex.solutions/images/cl-icon2.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-4">
+                          <div class="bs-shape3">
+                            <div class="image-shape">
+                              <img
+                                src=" https://www.onex.solutions/images/cl-icon2.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a
+                      class="expand-link collapsed"
+                      data-toggle="collapse"
+                      href="#collapseExample"
+                      role="button"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                    >
+                      Show More
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="retail"
+                  role="tabpanel"
+                  aria-labelledby="retail-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="real-estate"
+                  role="tabpanel"
+                  aria-labelledby="real-state-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="health"
+                  role="tabpanel"
+                  aria-labelledby="health-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="other"
+                  role="tabpanel"
+                  aria-labelledby="other-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4">
+                      <div class="bs-shape3">
+                        <div class="image-shape">
+                          <img
+                            src=" https://www.onex.solutions/images/cl-icon2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Whatsapp -->
+    <h2 class="whatsapph2">
+      Add WhatsApp to every step of the customer journey
+    </h2>
+    <section class="two-sections row mt-3">
+      <div class="col-md-6 left-section">
+        <img
+          src="https://ozonetel.com/wp-content/uploads/2022/10/Website-Whatsapp-Images.jpg"
+          alt="Image"
+          class="img-fluid whatappImg"
+        />
+      </div>
+      <div class="col-md-6 whatappright mt-8">
+        <h2 class="mb-4">WhatsApp CCaaS Platform for sales</h2>
+        <p>
+          Convert high-intent leads with conversational selling. Make it
+          efficient for sales teams to handle more conversations with nearly 80%
+          automation.
+        </p>
+        <ul class="list-unstyled text-center">
+          <li class="mb-3">
+            Nurture prospects & customers with rich-media messages
+          </li>
+          <li class="mb-3">
+            Facilitate mobile purchases, renewals, & reorders on WhatsApp
+          </li>
+          <li class="mb-3">
+            Use the same masked caller ID to send a payment link or brochure
+            directly to customer post-conversation
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="two-sections row mt-5">
+      <div class="col-md-6 left-section">
+        <img
+          src="https://ozonetel.com/wp-content/uploads/2022/10/Website-Whatsapp-Images.jpg"
+          alt="Image"
+          class="img-fluid whatappImg"
+        />
+      </div>
+      <div class="col-md-6 whatappright">
+        <h2 class="mb-4">WhatsApp CCaaS Platform for sales</h2>
+        <p>
+          Convert high-intent leads with conversational selling. Make it
+          efficient for sales teams to handle more conversations with nearly 80%
+          automation.
+        </p>
+        <ul class="list-unstyled text-center">
+          <li class="mb-3">
+            Nurture prospects & customers with rich-media messages
+          </li>
+          <li class="mb-3">
+            Facilitate mobile purchases, renewals, & reorders on WhatsApp
+          </li>
+          <li class="mb-3">
+            Use the same masked caller ID to send a payment link or brochure
+            directly to customer post-conversation
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Amplify -->
+    <section class="my-section">
+      <div class="container">
+        <h1 class="Amplify">Everything you need to amplify engagement</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image.svg" class="card-img-top" alt="Image 1" />
+              <div class="card-body">
+                <h5 class="card-title">Conversational intelligence</h5>
+                <p class="card-subtitle">
+                  Deploy a standard, AI-enabled WhatsApp chatbot within a week
+                </p>
+                <p />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image.svg" class="card-img-top" alt="Image 1" />
+              <div class="card-body">
+                <h5 class="card-title">Conversational intelligence</h5>
+                <p class="card-subtitle">
+                  Deploy a standard, AI-enabled WhatsApp chatbot within a week
+                </p>
+                <p />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image.svg" class="card-img-top" alt="Image 1" />
+              <div class="card-body">
+                <h5 class="card-title">Conversational intelligence</h5>
+                <p class="card-subtitle">
+                  Deploy a standard, AI-enabled WhatsApp chatbot within a week
+                </p>
+                <p />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image.svg" class="card-img-top" alt="Image 1" />
+              <div class="card-body">
+                <h5 class="card-title">Conversational intelligence</h5>
+                <p class="card-subtitle">
+                  Deploy a standard, AI-enabled WhatsApp chatbot within a week
+                </p>
+                <p />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image.svg" class="card-img-top" alt="Image 1" />
+              <div class="card-body">
+                <h5 class="card-title">Conversational intelligence</h5>
+                <p class="card-subtitle">
+                  Deploy a standard, AI-enabled WhatsApp chatbot within a week
+                </p>
+                <p />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image.svg" class="card-img-top" alt="Image 1" />
+              <div class="card-body">
+                <h5 class="card-title">Conversational intelligence</h5>
+                <p class="card-subtitle">
+                  Deploy a standard, AI-enabled WhatsApp chatbot within a week
+                </p>
+                <p />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image.svg" class="card-img-top" alt="Image 1" />
+              <div class="card-body">
+                <h5 class="card-title">Conversational intelligence</h5>
+                <p class="card-subtitle">
+                  Deploy a standard, AI-enabled WhatsApp chatbot within a week
+                </p>
+                <p />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image.svg" class="card-img-top" alt="Image 1" />
+              <div class="card-body">
+                <h5 class="card-title">Conversational intelligence</h5>
+                <p class="card-subtitle">
+                  Deploy a standard, AI-enabled WhatsApp chatbot within a week
+                </p>
+                <p />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="container contactCon">
+      <h2 class="contacth2">Contact Us</h2>
+      <form class="contactform">
+        <div class="row ml-4">
+          <div class="col-md-4 leftmargin">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="phone">Contact Number:</label>
+              <input
+                type="tel"
+                class="form-control"
+                id="phone"
+                name="phone"
+                required
+              />
+            </div>
+          </div>
+          <div class="col-md mt-4 ml-4">
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <h4 class="heading">Company</h4>
+            <ul>
+              <li><a href="https://www.onex.solutions/#who">About US</a></li>
+              <li>
+                <a href="https://www.onex.solutions/#who">10 years Journey</a>
+              </li>
+              <li><a href="https://www.onex.solutions/#clients">Clients</a></li>
+              <li><a href="#feedback">Testimonial</a></li>
+              <li>
+                <a href="https://www.onex.solutions/#who">Success Story</a>
+              </li>
+              <li>
+                <a href="https://www.onex.solutions/#media">News & Media</a>
+              </li>
+              <li><a href="https://www.onex.solutions/#blog">Events</a></li>
+              <li><a href="https://www.onex.solutions/#blog">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4 class="heading">Onex</h4>
+            <ul>
+              <li><a href="https://www.onex.solutions/#omni">Channel</a></li>
+              <li>
+                <a href="https://www.onex.solutions/#usp"
+                  >Useful for various businesses</a
+                >
+              </li>
+              <li><a href="https://www.onex.solutions/#usp">Retarget</a></li>
+              <li>
+                <a href="https://www.onex.solutions/#usp">Pan India Reach</a>
+              </li>
+              <li>
+                <a href="https://www.onex.solutions/#usp"
+                  >Content in regional language</a
+                >
+              </li>
+              <li>
+                <a href="https://www.onex.solutions/#usp"
+                  >White Label & Resellers</a
+                >
+              </li>
+              <li>
+                <a href="https://www.onex.solutions/#usp">Reports & Analysis</a>
+              </li>
+              <li>
+                <a href="https://www.onex.solutions/#usp">Sample Content</a>
+              </li>
+              <li><a href="https://www.onex.solutions/#usp">Smartext</a></li>
+              <li><a href="https://www.onex.solutions/#usp">Smartlink</a></li>
+              <li><a href="https://www.onex.solutions/#case">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <h4 class="heading">Usecase</h4>
+            <ul>
+              <li>
+                <a href="https://www.onex.solutions/#case">Real Estate</a>
+              </li>
+              <li>
+                <a href="https://www.onex.solutions/#case">Retail Business</a>
+              </li>
+              <li>
+                <a href="https://www.onex.solutions/#case">Health Sector</a>
+              </li>
+              <li><a href="https://www.onex.solutions/#case">Automobile</a></li>
+              <li><a href="https://www.onex.solutions/#case">Education</a></li>
+              <li>
+                <a href="https://www.onex.solutions/#case">Travel & Tourism</a>
+              </li>
+              <li>
+                <a href="https://www.onex.solutions/#case"
+                  >Media & Entertainment</a
+                >
+              </li>
+              <li><a href="https://www.onex.solutions/#case">Restaurant</a></li>
+              <li><a href="https://www.onex.solutions/#case">Event</a></li>
+              <li><a href="https://www.onex.solutions/#case">Startup</a></li>
+              <li>
+                <a href="https://www.onex.solutions/#case">Radio Channel</a>
+              </li>
+              <li>
+                <a href="https://www.onex.solutions/#case">Shopping Mall</a>
+              </li>
+              <li><a href="https://www.onex.solutions/#case">Brand</a></li>
+              <li><a href="https://www.onex.solutions/#case">FMCG</a></li>
+              <li>
+                <a href="https://www.onex.solutions/#case">Recruitment</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4 class="heading">Join Us</h4>
+            <ul>
+              <li>
+                <a href="https://www.onex.solutions/partners/">Reseller</a>
+              </li>
+              <li><a href="https://dost4sme.onex.solutions/">Dost4SME</a></li>
+              <li><a href="javascript: ;">Publisher</a></li>
+              <li><a href="https://onexsolutions.com/careers">Careers</a></li>
+            </ul>
+            <ul class="pay-list">
+              <li><img src="images/f-icon1.jpg" alt="" /></li>
+              <li><img src="images/f-icon2.jpg" alt="" /></li>
+              <li><img src="images/f-icon3.jpg" alt="" /></li>
+              <li><img src="images/f-icon4.jpg" alt="" /></li>
+            </ul>
+
+            <h4 class="heading">Location</h4>
+            <div class="location">
+              <a
+                href="javascript: ;"
+                class="btn"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="RDB Boulevard, Plot K-1, Level 8,
+					Block EP & GP, Sector v Kolkata-700091"
+                ><i class="fa fa-map-marker" aria-hidden="true"></i> Kolkata</a
+              >
+              <a
+                href="javascript: ;"
+                class="btn"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Incuspaze-Mumbai 2nd Floor, Ackruti Star, Andheri East, Maharashtra-400093"
+                ><i class="fa fa-map-marker" aria-hidden="true"></i> Mumbai</a
+              >
+            </div>
+            <h4 class="heading mt-4">CONNECT WITH US</h4>
+            <ul class="sicial-list">
+              <li>
+                <a href="https://www.facebook.com/OnexSolutionsPvtLtd/"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/LtdOnex"
+                  ><i class="fa fa-twitter" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/onex_solutions_pvt_ltd/"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCwuWUqt7lxzLYPM3nyMPPwA"
+                  ><i class="fa fa-youtube-play" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-sec">
+        <div class="container">
+          <div class="row">
+            <div class="rowed">
+              <p>© 2020 Onex Solutions. All rights reserved.</p>
+              <ul class="footer-li">
+                <li>
+                  <a
+                    href="https://www.onex.solutions/inc/Sample_Terms_and_Conditions.pdf"
+                    >Terms and Conditions</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.onex.solutions/inc/Sample_Privacy_Policy.pdf"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.onex.solutions/inc/Sample_Refund_and_Cancellation.pdf"
+                    >Refund and Cancellation</a
+                  >
+                </li>
+                <li><a href="javascript: ;">Cookie Policy</a></li>
+                <li><a href="javascript: ;">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a
+      href="https://api.whatsapp.com/send?phone=919007754000&text=Hello,I%20am%20interested%20in%20Onex%20Solutions.&source=Website&data=True"
+    >
+      <img
+        class="bottomimg"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png"
+        alt=""
+    /></a>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"
+  ></script>
+</html>
